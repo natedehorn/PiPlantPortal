@@ -1,0 +1,8 @@
+html *{
+	margin:	0;
+	color: grey;
+	font-family: 'Anonymous Pro', monospace;
+}
+.navbar-fixed-top {
+    position: relative;
+}

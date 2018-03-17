@@ -2,5 +2,5 @@
   "name": "PiPlant",
   "description": "a raspberry pi controlled garden monitor",
   "repository": "https://github.com/natedehorn/PiPlantPortal",
-  "keywords": ["node", "express", "heroku"]
+  "keywords": []
 }

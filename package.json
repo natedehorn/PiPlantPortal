@@ -1,5 +1,5 @@
 {
-  "name": "piplant",
+  "name": "PiPlantPortal",
   "version": "1.0.0",
   "description": "a raspberry pi controlled garden",
   "main": "index.js",
@@ -11,18 +11,15 @@
     "type": "git",
     "url": "git+https://github.com/natedehorn/PiPlantPortal.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/natedehorn/PiPlantPortal/issues"
   },
   "homepage": "https://github.com/natedehorn/PiPlantPortal#readme",
   "dependencies": {
     "ejs": "^2.5.6",
-    "express": "^4.15.2"
-  },
-  "devDependencies": {
-    "request": "^2.81.0",
+    "express": "^4.15.2",
+    "request": "^2.85.0",
     "tape": "^4.7.0"
-  }
+  },
+  "keywords": []
 }

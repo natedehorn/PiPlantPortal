@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+
+  <% include ../partials/nav.ejs %>
+
+  <div class="jumbotron text-center">
+    <div class="container">
+      <div class="logo">
+        <img src="/suculent.png">
+      </div>
+      <h1>piplant</h1>
+      <p>a raspberry pi controlled garden</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h1>Current Readings</h1>
+        <table class="table">
+          <tbody>
+            <tr>
+              <th scope="row">Ambient Temperature</th>
+              <td>75&deg;</td>
+            </tr>
+            <tr>
+              <th scope="row">Ambient Humidity</th>
+              <td>25%</td>
+            </tr>
+            <tr>
+              <th scope="row">Ambient Light</th>
+              <td>15 lux</td>
+            </tr>
+            <tr>
+              <th scope="row">Soil Moisture</th>
+              <td>75%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-lg-6">
+        <img src="http://via.placeholder.com/500x500">
+      </div>
+    </div>
+  </div>
+</body>
+</html>

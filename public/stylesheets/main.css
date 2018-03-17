@@ -6,3 +6,9 @@ html *{
 .navbar-fixed-top {
     position: relative;
 }
+.jumbotron {
+	padding: 25px 32px;
+}
+.logo img {
+	height: 100px;
+}

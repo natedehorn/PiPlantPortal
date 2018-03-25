@@ -1,1 +1,1 @@
-var socket = io.connect('http://piplant.herokuapp.com');
+var socket = io.connect();

@@ -15,7 +15,10 @@ app
 .set('views', path.join(__dirname, 'views'))
 .set('view engine', 'ejs')
 .get('/', (req, res) => res.render('pages/index'))
-.post('/', (req, res) => res.send(`PiPlantPortal: POST Recieved`));
+.post('/', (req, res) => {
+  io.emit('post', req.body)
+  res.send(`PiPlantPortal: POST Recieved`)
+});
 
 io.on('connection', function(socket){
   console.log('user connected');

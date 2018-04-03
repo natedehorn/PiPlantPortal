@@ -6,7 +6,7 @@ const path = require('path')
 const PORT = process.env.PORT || 5000
 const bodyParser = require('body-parser')
 
-server.listen(PORT, () => console.log(`Listening on $ { PORT }`))
+server.listen(PORT, () => console.log(`Listening on ${PORT}`))
 
 app
   .use(express.static(path.join(__dirname, 'public')))
